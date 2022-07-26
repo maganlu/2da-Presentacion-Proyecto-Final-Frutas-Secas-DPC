@@ -18,9 +18,6 @@ html{
     weight: 140px;
 }
 
-/*-------------------CARRUSEL------------------------*/
-
-
 /*--------------------InicioServicios-------------------------*/
 .serviciosGrid{
    text-align: center; 
@@ -48,14 +45,22 @@ html{
     grid-area: servicioespecialistas;
 }
 
-/*--------------------InicioServicios-------------------------*/
+/*----------------------PAGE NUESTRA HISTORIA-------------------------*/
+
+.nuestrahistoria{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nuestrahistoria article{
+    font-weight: bold;
+    text-align: justify;
+}
+/*----------------------PAGE CONTACTO-------------------------*/
 
 
-
-
-
-
-/*--------------------FOOTER-------------------------*/
+/*--------------------FOOTER DE TODAS LAS PAGES-------------------------*/
 
 
 .redesinstagram{
