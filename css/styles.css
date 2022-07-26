@@ -21,7 +21,6 @@ html{
 /*-------------------CARRUSEL------------------------*/
 
 
-
 /*--------------------InicioServicios-------------------------*/
 .serviciosGrid{
    text-align: center; 
@@ -64,8 +63,8 @@ html{
         grid-template-areas: 
         "serviciologistica servicioenvios"
         "servicioasesor servicioespecialistas";
-    
 }
 
 }
+
 
