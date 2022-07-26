@@ -11,4 +11,61 @@ body{
 html{
     font-size: medium;
 }
+/*--------------------HEADER-------------------------*/
+
+.imagen-logo{
+    height: 140px;
+    weight: 140px;
+}
+
+/*-------------------CARRUSEL------------------------*/
+
+
+
+/*--------------------InicioServicios-------------------------*/
+.serviciosGrid{
+   text-align: center; 
+   font-weight: bold;
+}
+
+.serviciosGrid div p{
+    font-size:x-large;
+    text-decoration: underline;
+}
+
+.serviciologistica{
+    grid-area: serviciologistica;
+}
+
+.servicioenvios{
+    grid-area: servicioenvios;
+}
+
+.servicioasesor{
+    grid-area: servicioasesor;
+}
+
+.servicioespecialistas{
+    grid-area: servicioespecialistas;
+}
+
+/*--------------------InicioServicios-------------------------*/
+
+
+
+
+
+/*---------------------MEDIAMOBILEINDEX----------------------*/
+@media (min-width:768px){
+    .serviciosGrid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas: 
+        "serviciologistica servicioenvios"
+        "servicioasesor servicioespecialistas";
+    
+}
+
+}
 
