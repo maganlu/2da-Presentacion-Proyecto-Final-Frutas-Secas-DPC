@@ -17,6 +17,16 @@ html{
     weight: 140px;
 }
 
+.nav-link{
+transition: all .5;
+border-radius: 30px;
+}
+
+.nav-link:hover {
+background: #6eaf28;
+letter-spacing: 1px;
+}
+
 /*--------------------InicioServicios-------------------------*/
 .serviciosGrid{
    text-align: center; 
@@ -55,6 +65,7 @@ html{
 .nuestrahistoria article{
     font-weight: bold;
     text-align: justify;
+    font-size: large;
 }
 /*----------------------PAGE PRODUCTOS-------------------------*/
 
