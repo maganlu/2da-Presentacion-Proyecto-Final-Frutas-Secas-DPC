@@ -58,7 +58,41 @@ html{
     text-align: justify;
 }
 /*----------------------PAGE CONTACTO-------------------------*/
-
+        
+        h3{
+            color: black;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: xx-large;
+        }
+    
+    
+        .formularioContacto {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            letter-spacing: 1px;
+            background: url(../imagen/fondo\ redimen\ \(2\).jpeg);   
+            background-size: cover;
+        }
+        
+        
+        .formularioContacto form{
+           justify-content: center;
+           margin-top: 20px;
+           margin-bottom: 20px;
+    
+        }
+        
+        .formulario__botonsubmit{
+            background-color: #C1FA84;
+            font-weight: bold; 
+        }
+        
+        .formularioContacto div{
+            font-weight: bold;
+            font-size: x-large;
+            
+        }
 
 
 /*----------------------PAGE PRODUCTOS-------------------------*/
