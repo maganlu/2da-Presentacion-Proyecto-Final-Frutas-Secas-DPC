@@ -29,10 +29,6 @@
                       <li class="nav-item">
                         <a class="nav-link" href="nuestrahistoria.html">Nuestra historia</a>
                       </li>
-                
-                      <li class="nav-item">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
-                      </li>
         
                       <li class="nav-item">
                         <a class="nav-link" href="productos.html">Productos</a>
@@ -40,6 +36,10 @@
 
                       <li class="nav-item">
                         <a class="nav-link" href="servicios.html">Servicios</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
                       </li>
         
                     </ul>
@@ -50,44 +50,59 @@
             </header> 
         <!--------------------FORMULARIO--------------------------->
 
-<section class="containerGridContacto">
+<section>
 
 
         <section class="formularioContacto"> 
             <form>
                 <h3>Completa los siguientes datos y recibí nuestra lista de productos:</h3>
-    
+
+       <!--FORMULARIO DE ELECCION-->
+       <div class="formulario-eleccion">
+        <p>Tipo de comercio:</p>
+        <label for "minorista">Minorista (dieteticas, panaderias, comercios en general)</label>
+        <input type="radio" name="comercio" id="minorista">
+
+        <label for "mayorista">Mayorista (distribuidores)</label>
+        <input type="radio" name="comercio" id="mayorista">
+    </div>
+
                     <div>
-                        <label for="nombre">Nombre y apellido</label>
+                        <label for="nombre">Nombre y apellido:</label>
+                        </div>
+
+                        <div>
                         <input type="text" id="nombre" placeholder="Ingrese su nombre y apellido"  required>
                     </div>
+
                     <div>
-                        <label for="correo">Correo electronico</label>
+                        <label for="correo">Correo electronico:</label>
+                      </div>
+
+                      <div>
                         <input type="email" id="correo" placeholder="Ingrese Email" required>
                     </div>
                     <div>
-                        <label for="telefono">Telefono</label>
+                        <label for="telefono">Telefono:</label>
+                     </div>
+                       
+                     <div>
                         <input type="number" id="telefono" placeholder="Ingrese su telefono" required>
                     </div>
+
                     <div>
-                        <label for="mensaje">Mensaje</label>
+                        <label for="mensaje">Mensaje:</label>
                     </div>
+
                     <div>    
-                        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                        <textarea name="mensaje" id="mensaje" ></textarea>
                     </div>
                     <div><!--El que envia informacion del formulario-->
     
                     <input type="submit" value="Enviar formulario" class="formulario__botonsubmit">
                 </div>
-                <!--FORMULARIO DE ELECCION-->
-                <div>
-                    <p>Tipo de comercio</p>
-                    <label for "minorista">Minorista</label>
-                    <input type="radio" name="comercio" id="minorista">
-    
-                    <label for "mayorista">Mayorista</label>
-                    <input type="radio" name="comercio" id="mayorista">
-                </div>
+
+                
                 </form>
                 
     
@@ -130,7 +145,7 @@
    
    
          <div>
-             <p> Frutas secas DPC - Alimentos & Servicios</p>
+             <p>Frutas secas DPC - Producción, importación & distribución</p>
          </div>
    
      <div class="footerlink">

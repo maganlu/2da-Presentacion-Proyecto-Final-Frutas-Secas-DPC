@@ -5,7 +5,6 @@
 
 body{
     font-family: 'Finlandica', sans-serif;
-    position:relative;
     }
 
 html{
@@ -57,44 +56,6 @@ html{
     font-weight: bold;
     text-align: justify;
 }
-/*----------------------PAGE CONTACTO-------------------------*/
-        
-        h3{
-            color: black;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            font-size: xx-large;
-        }
-    
-    
-        .formularioContacto {
-            display: flex;
-            justify-content: center;
-            text-align: center;
-            letter-spacing: 1px;
-            background: url(../imagen/fondo\ redimen\ \(2\).jpeg);   
-            background-size: cover;
-        }
-        
-        
-        .formularioContacto form{
-           justify-content: center;
-           margin-top: 20px;
-           margin-bottom: 20px;
-    
-        }
-        
-        .formulario__botonsubmit{
-            background-color: #C1FA84;
-            font-weight: bold; 
-        }
-        
-        .formularioContacto div{
-            font-weight: bold;
-            font-size: x-large;
-            
-        }
-
-
 /*----------------------PAGE PRODUCTOS-------------------------*/
 
 .productosGridpage{
@@ -149,6 +110,84 @@ html{
     text-decoration: underline;
 
 }
+
+/*--------------------PAGE SERVICIOS------------------------------------*/
+
+.page-servicios{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.page-servicios p{
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: large;
+    text-decoration: underline
+    
+    ;
+}
+
+.articulo1-pageservicios{
+    font-size: large;
+    text-align: justify;
+}
+
+
+
+/*----------------------PAGE CONTACTO-------------------------*/
+        
+h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+
+.formularioContacto {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 1px;
+    background:#C1FA84;   
+    background-size: cover;
+}
+
+.formularioContacto input{
+    width: 80%;
+    height: 35px;
+    text-align: center;
+
+}
+
+
+.formularioContacto form{
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+.formulario__botonsubmit{
+    background-color: #C1FA84;
+    font-weight: bold; 
+}
+
+.formularioContacto div{
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+
+.formulario-eleccion p{
+    text-decoration:solid;
+    text-decoration: underline;
+}
+
+.formulario-eleccion{
+    margin-bottom: 15px;
+}
+
 
 /*--------------------FOOTER DE TODAS LAS PAGES-------------------------*/
 
