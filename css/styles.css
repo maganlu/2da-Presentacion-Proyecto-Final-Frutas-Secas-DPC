@@ -28,7 +28,9 @@ letter-spacing: 1px;
 }
 
 /*--------------------InicioServicios-------------------------*/
-.serviciosGrid{
+.serviciosGrid{ 
+    margin-bottom: 30px;
+
    text-align: center; 
    font-weight: bold;
 }
