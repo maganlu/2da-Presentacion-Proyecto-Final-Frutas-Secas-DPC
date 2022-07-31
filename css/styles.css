@@ -242,7 +242,7 @@ letter-spacing: 1px;
 
 .footerGrid{
     grid-area: footer;
-    background: linear-gradient(to top, rgba(34, 28, 24, 0.8) 0%, rgba(7, 6, 6, 0.1) 100%);
+    background: linear-gradient(to top, rgba(114, 167, 65, 0.8) 0%, rgba(67, 99, 63, 0.1) 100%);
     background-position: center;
     background-repeat: no-repeat;
     position: absolute;
