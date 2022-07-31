@@ -207,28 +207,16 @@ h3{
     grid-area: redesinstagram;
 }
 
-.imageninstagram{
-    width: 10%;
-    height: 10%;
-}
 
 .redesfacebook{
      grid-area: redesfacebook;
 }
 
-.imagenfacebook{
-    width: 10%;
-    height: 10%;
-}
 
 .redeswhatsapp{
     grid-area: redeswhatsapp;
 }
 
-.imagenwhatsapp{
-    width: 10%;
-    height: 10%;
-}
 .redesGrid nav{
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
@@ -284,6 +272,9 @@ letter-spacing: 1px;
     color: #fff;
 }
 
+.iconify{
+    font-size: 50px;
+}
 /*---------------------MEDIA DESKTOP INDEX----------------------*/
 @media (min-width:768px){
     .serviciosGrid{
