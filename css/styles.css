@@ -27,6 +27,13 @@ background: #6eaf28;
 letter-spacing: 1px;
 }
 
+/*--------------------CARRUSEL-------------------------*/
+
+#carouselExampleFade{
+    display: none;
+}
+
+
 /*--------------------InicioServicios-------------------------*/
 .serviciosGrid{ 
     margin-bottom: 30px;
@@ -276,6 +283,19 @@ letter-spacing: 1px;
 
 .iconify{
     font-size: 50px;
+}
+
+/*---------------------MEDIA DESKTOP CARRUSEL DE IMAGENES----------------------*/
+@media (min-width:480px){
+
+#carouselExampleFade{
+    display:contents;
+}
+
+#carouselExampleIndicators{
+    display: none;
+}
+
 }
 /*---------------------MEDIA DESKTOP INDEX----------------------*/
 @media (min-width:768px){
